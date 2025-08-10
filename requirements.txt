@@ -1,0 +1,15 @@
+# fastapi
+# uvicorn[standard]
+# python-dotenv
+# openai
+# pinecone
+# pypdf
+# requests
+
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+pinecone
+pypdf
+requests
