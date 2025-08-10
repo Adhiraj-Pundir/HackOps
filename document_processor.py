@@ -1,26 +1,3 @@
-# import requests
-# import pypdf
-# import io
-
-# def process_pdf_from_url(url: str) -> list[str]:
-#     """Downloads a PDF, extracts text, and splits it into chunks."""
-#     print(f"Fetching PDF from {url}...")
-#     response = requests.get(url)
-#     response.raise_for_status()  # Ensure the download was successful
-
-#     pdf_file = io.BytesIO(response.content)
-#     reader = pypdf.PdfReader(pdf_file)
-
-#     full_text = ""
-#     for page in reader.pages:
-#         full_text += page.extract_text() + "\n"
-
-#     # Simple chunking strategy: split by paragraphs
-#     chunks = [p.strip() for p in full_text.split('\n\n') if p.strip()]
-#     print(f"Extracted and chunked document into {len(chunks)} parts.")
-#     return chunks
-# file: document_processor.py
-
 import requests
 import pypdf
 import io
